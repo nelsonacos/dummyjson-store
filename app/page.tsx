@@ -3,5 +3,9 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <h1>App Router</h1>;
+  return (
+    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '100px' }}>
+      <button type="button" className="btn btn-primary">Primary</button>
+    </div>
+  );
 }
