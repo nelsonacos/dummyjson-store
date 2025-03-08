@@ -4,22 +4,31 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "vitest"
+    "test": "vitest",
+    "lint": "next lint",
+    "format": "prettier --write ."
   },
   "dependencies": {
-    "bootstrap": "^5.3.3",
+    "@tanstack/react-query": "5.67.1",
+    "bootstrap": "5.3.3",
     "next": "latest",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "server-only": "^0.0.1"
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "server-only": "0.0.1"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "3.3.0",
     "@testing-library/react": "14.1.2",
     "@types/node": "20.10.4",
     "@types/react": "18.2.45",
-    "@vitejs/plugin-react": "^4.2.1",
-    "jsdom": "^23.0.1",
+    "@vitejs/plugin-react": "4.2.1",
+    "eslint-config-next": "15.2.1",
+    "eslint-config-prettier": "10.1.1",
+    "eslint-plugin-react": "^7.37.4",
+    "globals": "16.0.0",
+    "jsdom": "23.0.1",
     "typescript": "5.3.3",
-    "vitest": "1.0.4"
+    "typescript-eslint": "8.26.0",
+    "vitest": "3.0.8"
   }
 }
